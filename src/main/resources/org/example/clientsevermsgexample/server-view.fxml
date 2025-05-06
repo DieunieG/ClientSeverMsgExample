@@ -22,6 +22,7 @@
         <HBox spacing="10">
             <TextField fx:id="tf_message" promptText="Type your message..." prefWidth="360"
                        style="-fx-font-size: 14px; -fx-background-radius: 8;" />
+
             <Button fx:id="button_send" text="Send"
                     style="-fx-background-color: #7558ef; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;" />
         </HBox>

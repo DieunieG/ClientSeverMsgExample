@@ -13,7 +13,7 @@ public class NetworkApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(NetworkApplication.class.getResource("main_form.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 580, 375);
-        stage.setTitle("Test Server!");
+          stage.setTitle("Test Server!");
         stage.setScene(scene);
         stage.show();
     }

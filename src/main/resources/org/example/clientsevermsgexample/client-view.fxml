@@ -16,7 +16,7 @@
                     style="-fx-background-color: white; -fx-border-color: #3f6197; -fx-border-radius: 10; -fx-background-radius: 10;">
             <content>
                 <VBox fx:id="vbox_messages" spacing="8" padding="10" />
-            </content>
+             </content>
         </ScrollPane>
 
         <HBox spacing="10">

@@ -49,6 +49,7 @@ public class ServerView {
             dis = new DataInputStream(socket.getInputStream());
             dos = new DataOutputStream(socket.getOutputStream());
 
+
             while (true) {
                 String message = dis.readUTF();
                 addMessage("Client: " + message, false);

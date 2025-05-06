@@ -22,7 +22,8 @@
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
-                        <Button fx:id="clearBtn" layoutX="350.0" mnemonicParsing="false" onAction="#clearBtn" text="Clear" />
+
+                         <Button fx:id="clearBtn" layoutX="350.0" mnemonicParsing="false" onAction="#clearBtn" text="Clear" />
                         <Button fx:id="testBtn" layoutX="100.0" mnemonicParsing="false" onAction="#checkConnection" text="Test Port" />
                      </children>
                   </AnchorPane>
